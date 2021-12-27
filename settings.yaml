@@ -1,0 +1,103 @@
+pterodactyl:
+  url: "e "
+  key: "e "
+
+website:
+  port: " e"
+  secret: "w "
+
+discord:
+  id: "Enter your Discord OAuth2 ID here."
+  secret: "Enter your Discord OAuth2 secret here."
+  callbackpath: "http://localhost:8000/accounts/callback"
+
+Join4Resources:
+  enable: true 
+
+Coins:
+  enable: true
+
+Afk: 
+  enable: true
+  earnpersecond: 32
+renewal:
+  enable: true
+  renewal_time: 69
+  deletion_time: 10
+  renew_fee: 100
+
+LoginandSignUp:
+  enable: true
+
+Referrals:
+  enable: true
+
+store: 
+  memory:
+    enabled: true
+    cost: 10
+    per: 10
+
+  disk:
+    enabled: true
+    cost: 10
+    per: 10
+
+  cpu:
+    enabled: true
+    cost: 10
+    per: 10
+
+  servers:
+    enabled: true
+    cost: 10
+    per: 10
+
+  ports:
+    enabled: true
+    cost: 10
+    per: 1
+
+packages: # These are packages. They are organized categories on how much resources you would give to anyone with this package.
+  default: "default"
+  list:
+    default:
+      display: "The package name."
+      memory: 1024
+      disk: 1024
+      cpu: 100
+      servers: 1
+    pro:
+      display: "Pro Package"
+      memory: 2048
+      disk: 2048
+      cpu: 200
+      servers: 2
+
+locations:
+  "1": # Location ID.
+    name: "Location Name" 
+    enabled: true 
+
+
+eggs: # These are the eggs servers can be created with.
+  paper:
+    display: "Paper"
+    minimum:
+      memory: 100
+      disk: 100
+      cpu: 10
+    maximum:
+      memory: null
+      disk: null
+      cpu: null
+    info:
+      egg: 3
+      docker_image: quay.io/pterodactyl/core:java
+      startup: java -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}
+      environment:
+        SERVER_JARFILE: 'server.jar'
+        BUILD_NUMBER: 'latest'
+      feature_limits:
+        databases: 1
+        backups: 1 
