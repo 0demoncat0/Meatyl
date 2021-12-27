@@ -4,14 +4,14 @@
         "title": "Dashpytyl" 
     },
     "pterodactyl": {
-        "url": "https://panel.lushnodes.xyz",
-        "key": "PVYzpDJVnTfK3zz0Q2I6CVLbEra8GEseRjHixECcNGIwpf6Z"
+        "url": "",
+        "key": ""
     },
     "discord": {
         "_comment": "Go to https://discord.dev/ and create an application to set these up.",
-        "application_id": "885234019657216010",
-        "secret_key": "OR6sOZXOW5PT74evyOg-iQ6wxu9Izt3x",
-        "redirect_uri": "http://127.0.0.1:5000/callback"
+        "application_id": "",
+        "secret_key": "",
+        "redirect_uri": ""
     },
     "locations": {
         "2": {
