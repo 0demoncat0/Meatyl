@@ -1,4 +1,3 @@
-
 # **NOT IN PRODUCTION! THIS WILL BE SOON BE READY. DEVELOPERS ARE WORKING DAY/NIGHT.**
 
 
@@ -31,6 +30,7 @@ Soon
 | Gift Resources       | ❌         |
 | Ban User       | ❌         |
 | Bug reporter       | ❌         |
+| Meow       | ✔️         |
 # Disclaimer
 
 We are not responsible for any damages.
@@ -38,4 +38,3 @@ We are not responsible for any damages.
 You should not download anything from this repository yet! These files are not ready for production yet, and will be soon!
 
 To be notified of when we add new changes, star or watch this project!
-
