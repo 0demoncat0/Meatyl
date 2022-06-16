@@ -31,6 +31,7 @@ Soon
 | Gift Resources       | ❌         |
 | Ban User       | ❌         |
 | Bug reporter       | ❌         |
+| Meow       | ✔️         |
 # Disclaimer
 
 We are not responsible for any damages.

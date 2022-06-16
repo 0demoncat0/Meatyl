@@ -1,10 +1,10 @@
 pterodactyl:
-  url: "e "
-  key: "e "
+  url: "Your pterodactyal panel url"
+  key: "check at pterodactyal api at admin"
 
 website:
-  port: " e"
-  secret: "w "
+  port: " 90"
+  secret: "your api password "
 
 discord:
   id: "Enter your Discord OAuth2 ID here."
